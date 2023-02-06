@@ -1,2 +1,1 @@
-# idea-shop
-Магазин
+https://bojan3v.github.io/idea-shop/
