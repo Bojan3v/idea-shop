@@ -1,13 +1,10 @@
 let total = document.querySelector(`.sidebar-total`);
-let orderButton = document.querySelector(`.order-button`);
 let sidButton = document.querySelector(`.cart-button`);
 let sidebar = document.querySelector(`.sidebar`);
 let containerFood = document.querySelector(`.food-container`);
 let input = document.querySelector(`.search-input`);
 let sideBarBas = document.querySelector(`.sidebar-list`);
 let popup = document.querySelector(`.popup`);
-let buy = document.querySelector(`.buy`);
-let close = document.querySelector(`.close`);
 let cards = [
   {
     name: `Кактус`,
@@ -113,10 +110,5 @@ document.addEventListener(`click`, function (e) {
     }
   }
 });
-orderButton.addEventListener(`click`, function () {
-  popup.classList.remove(`d-none`);
-});
 
-close.addEventListener(`click`, function () {
-  popup.classList.add(`d-none`);
-});
+

@@ -195,34 +195,6 @@ button {
   background-color: RGBA(108, 117, 125, 1);
 }
 
-.popup{
-  width: 100vw;
-  height: 100vh;
-  position:absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background-color: rgba(0,0,0,0.5);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.contents {
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  padding: 20px;
-  border-radius: 10px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .btn{
   margin: 5px;
 }
